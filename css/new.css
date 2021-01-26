@@ -1,0 +1,55 @@
+article .content a,
+.content .white-box a,
+.product-info__description a,
+.product-tabs .tabs-content a {
+    color: #b02a36;
+    text-decoration: none;
+}
+article .tags a {
+    color :white;
+}
+.aside-filter__selected {
+    padding: 15px;
+    margin-top: -40px;
+}
+.filter-selected {
+    margin-top: 5px;
+    padding: 5px 15px;
+    background-color: #b02a36;
+    border-radius: 3px;
+    color: white;
+    position: relative;
+}
+.filter-selected:first-of-type {
+    margin-top: -12px;
+}
+.filter-selected__close {
+    cursor: pointer;
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    fill: white;
+    width: 10px;
+    height: 10px
+}
+.stock-out {
+    cursor: pointer;
+}
+.product-info__cart .stock-out {
+    position: relative;
+}
+.stock-out__text {
+    position: absolute;
+    top: 8px;
+}
+.stock-out__notification {
+    position: absolute;
+    top: 30px;
+    font-size: 12px;
+}
+.btn {
+    padding: 18px 20px 0;
+}
+.header._hidden {
+    display: none;
+}
