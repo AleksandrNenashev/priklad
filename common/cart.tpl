@@ -17,21 +17,3 @@
     <br> на <span class="cart-price cart-info"><?php echo $text_product; ?></span></p>
 </a>
 </div>
-
-
-
-<!-- <div id="cart"> *}
-	<a href="<?php echo $cart; ?>">
-		<?php echo $count;?>
-		<?php 
-			if ($count == 1) {
-				echo 'товар';
-			} elseif ($count == 2 || $count == 3 || $count == 4) {
-				echo 'товара';
-			} else {
-				echo 'товаров';
-			} 
-		?> 
-  		<?php echo $text_product; ?>
-  	</a>
-</div> -->
